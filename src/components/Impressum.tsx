@@ -33,6 +33,7 @@ export const Impressum: React.FC<ImpressumProps> = ({ onBack }) => {
             <div>
               <p className="font-semibold">Leistungsspektrum:</p>
               <p>KFZ-Werkstatt & Kieler Autoverwertung</p>
+              <p>StID: 20/147/00591</p>
             </div>
           </div>
         </section>
