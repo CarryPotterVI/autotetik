@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef} from 'react';
 import { Clock, Menu, X, ChevronDown } from 'lucide-react';
 
 const scrollToSection = (id: string) => {
@@ -18,6 +18,26 @@ const scrollToTop = () => {
 export const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+  const servicesDropdownRef = useRef(null);  // Referenz für das Services Dropdown
+    // Funktion, um das Dropdown zu schließen, wenn außerhalb geklickt wird
+    useEffect(() => {
+      const handleClickOutside = (event: MouseEvent) => {
+        if (servicesDropdownRef.current && !servicesDropdownRef.current.contains(event.target as Node)) {
+          setIsServicesOpen(false); // Dropdown schließen
+        }
+      };
+
+          // Event Listener hinzufügen
+    document.addEventListener('click', handleClickOutside);
+
+    // Cleanup: Entfernen des Event Listeners, wenn die Komponente unmountet
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []); // Leeres Array sorgt dafür, dass der Effekt nur einmal beim Mounten ausgeführt wird
+
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -89,8 +109,8 @@ export const Hero = () => {
                 Home
               </button>
               
-              {/* Services Dropdown */}
-              <div className="relative">
+              {/* Services Dropdown menu*/}
+              <div ref={servicesDropdownRef} className="relative">
                 <button 
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
                   className="flex items-center text-white hover:text-red-500 transition-colors"
