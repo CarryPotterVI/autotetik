@@ -109,8 +109,8 @@ export const Hero = () => {
                 Home
               </button>
               
-              {/* Services Dropdown menu*/}
-              <div ref={servicesDropdownRef} className="relative">
+              {/* Services Dropdown -- ref={servicesDropdownRef}  auf der klasse funktioniert nicht */}
+              <div className="relative">
                 <button 
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
                   className="flex items-center text-white hover:text-red-500 transition-colors"
@@ -145,6 +145,11 @@ export const Hero = () => {
             className={`md:hidden absolute top-16 left-0 right-0 bg-black/90 backdrop-blur-md transition-all duration-300 ${
               isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
             }`}
+            style={{
+              borderColor: '#4d0000', // TODO: Ändere die Randfarbe der mobilen Navigation hier.
+              borderWidth: '0.2px', // Sicherstellen, dass ein Rand sichtbar ist.
+              borderStyle: 'solid' // Sicherstellen, dass ein Rand sichtbar ist.
+            }}
           >
             <div className="flex flex-col p-4 space-y-4">
               <button 
