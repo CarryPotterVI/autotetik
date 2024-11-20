@@ -68,7 +68,7 @@ export const Hero = () => {
             >
               {/* Replace the src with your actual logo image path */}
               <img 
-                src="public/images/logo.png" 
+                src="/images/logo.png" 
                 alt="Auto Tetik Logo" 
                 className="h-10 w-auto"
                 // TODO: Add your logo image here. Replace "/logo.png" with the actual path
