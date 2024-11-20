@@ -72,12 +72,12 @@ export const Contact = () => {
                     <p>Mo-Fr: 9:00 - 18:00 Uhr</p>
                     <p>Sa: 9:00 - 13:00 Uhr</p>
                     <a 
-                      href="https://calendly.com/auto-tetik" 
+                      href="" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm text-red-500 hover:text-red-400 mt-2 inline-block"
                     >
-                      → Online-Terminbuchung 24/7
+                      → Terminbuchung 24/7
                     </a>
                   </div>
                 </div>
