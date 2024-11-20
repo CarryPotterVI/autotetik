@@ -147,7 +147,7 @@ export const Hero = () => {
             }`}
             style={{
               borderColor: '#4d0000', // TODO: Ändere die Randfarbe der mobilen Navigation hier.
-              borderWidth: '0.2px', // Sicherstellen, dass ein Rand sichtbar ist.
+              borderWidth: '0.8px', // Sicherstellen, dass ein Rand sichtbar ist.
               borderStyle: 'solid' // Sicherstellen, dass ein Rand sichtbar ist.
             }}
           >

@@ -72,7 +72,7 @@ export const Contact = () => {
                     <p>Mo-Fr: 9:00 - 18:00 Uhr</p>
                     <p>Sa: 9:00 - 13:00 Uhr</p>
                     <a 
-                      href="" 
+                      href="mailto:auto-tetik@gmx.de" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm text-red-500 hover:text-red-400 mt-2 inline-block"
