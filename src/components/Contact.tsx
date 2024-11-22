@@ -84,7 +84,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-
+          {/* Standort Bereich */}
           <div className="space-y-8">
             <div className="bg-black/60 backdrop-blur-md p-6 rounded-xl border border-white/10 hover:border-red-600/50 transition-all duration-300">
               <div className="flex items-center mb-6">
@@ -113,7 +113,7 @@ export const Contact = () => {
 
                     <p className="mt-4"><strong>Mit öffentlichen Verkehrsmitteln:</strong></p>
                     <ul className="list-disc pl-5 space-y-1">
-                      <li>Bus 100/200 bis Haltestelle "Segeberger Landstraße"</li>
+                      <li>Bus 45 bis Haltestelle "Alte Siedlung"</li>
                       <li>2 Minuten Fußweg</li>
                     </ul>
                   </div>
@@ -140,18 +140,18 @@ export const Contact = () => {
                 </div>
               </div>
             </div>
-
-            <div className="bg-black/60 backdrop-blur-md p-6 rounded-xl border border-white/10 hover:border-red-600/50 transition-all duration-300">
+            {/* Kontaktbereich */}
+            {/* <div className="bg-black/60 backdrop-blur-md p-6 rounded-xl border border-white/10 hover:border-red-600/50 transition-all duration-300">
               <h3 className="text-xl font-semibold mb-4">Weitere Kontaktmöglichkeiten</h3>
               <p>Für Autoverwertung:</p>
               <a href="mailto:autoverwertung.tetik@gmail.com" className="text-red-500 hover:text-red-400 block mb-2">
-                autoverwertung.tetik@gmail.com
+              auto-tetik@gmx.de
               </a>
               <p>Für allgemeine Anfragen:</p>
               <a href="mailto:autoverwertungtetik@gmail.com" className="text-red-500 hover:text-red-400 block">
-                autoverwertungtetik@gmail.com
+              auto-tetik@gmx.de
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 

@@ -58,7 +58,7 @@ export const Hero = () => {
     { id: 'lack', name: 'Lack & Karosserie' },
     { id: 'tuev', name: 'TÜV / AU' },
     { id: 'reparatur', name: 'Reparaturen' },
-    { id: 'import', name: 'Import & Export' },
+    /* { id: 'import', name: 'Import & Export' }, */
     { id: 'reifen', name: 'Reifenservice' }
   ];
 
@@ -90,7 +90,7 @@ export const Hero = () => {
               <img 
                 src="/images/logo.png" 
                 alt="Auto Tetik Logo" 
-                className="h-10 w-auto"
+                className="h-12 w-auto"
                 // TODO: Add your logo image here. Replace "/logo.png" with the actual path
               />
             </button>

@@ -14,21 +14,14 @@ const services = [
     icon: Truck,
     title: 'Autoverwertung',
     description: 'Fachgerechte Entsorgung und Verwertung von Altfahrzeugen aller Art.',
-    details: ['Kostenlose Abholung', 'Umweltgerechte Entsorgung', 'Verwertungsnachweis', 'Abmeldung möglich']
+    details: ['Abholung auf anfrage', 'Umweltgerechte Entsorgung', 'Verwertungsnachweis', 'Abmeldung möglich']
   },
   {
     id: 'wartung',
     icon: Settings,
     title: 'Wartung & Inspektion',
     description: 'Regelmäßige Wartungen und Inspektionen nach Herstellervorgaben.',
-    details: ['Ölwechsel', 'Bremsflüssigkeit', 'Filterservice', 'Jahrescheck']
-  },
-  {
-    id: 'diagnose',
-    icon: FileSearch,
-    title: 'Diagnose & Fehlerauslesen',
-    description: 'Professionelle Fehlerdiagnose mit modernster Technik.',
-    details: ['Computerdiagnose', 'Fehlerauslesen', 'Fehlerbehebung', 'Elektronik-Check']
+    details: ['Ölwechsel', 'Bremsflüssigkeit', 'Filterservice', 'Jahrescheck' ,'Klimaservice']
   },
   {
     id: 'lack',
@@ -36,6 +29,13 @@ const services = [
     title: 'Lack & Karosserie',
     description: 'Professionelle Lackier- und Karosseriearbeiten.',
     details: ['Lackierung', 'Karosseriearbeiten', 'Unfallinstandsetzung', 'Smart Repair']
+  },
+  {
+    id: 'diagnose',
+    icon: FileSearch,
+    title: 'Diagnose & Fehlerauslesen',
+    description: 'Professionelle Fehlerdiagnose mit modernster Technik.',
+    details: ['Computerdiagnose', 'Fehlerauslesen', 'Fehlerbehebung', 'Elektronik-Check','Codierung','abschleppen','Reparatur','Achsvermessung']
   },
   {
     id: 'tuev',
@@ -51,13 +51,13 @@ const services = [
     description: 'Umfassende Reparaturen aller Art für Ihr Fahrzeug.',
     details: ['Motor', 'Bremsen', 'Fahrwerk', 'Elektronik']
   },
-  {
+  /* {
     id: 'import',
     icon: Navigation,
     title: 'Import & Export',
     description: 'Professionelle Abwicklung von Import- und Exportgeschäften.',
     details: ['EU-Import', 'Weltweiter Export', 'Zollabwicklung', 'Dokumentation']
-  },
+  }, */
   {
     id: 'reifen',
     icon: Cog,
