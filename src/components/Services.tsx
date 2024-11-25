@@ -35,7 +35,7 @@ const services = [
     icon: FileSearch,
     title: 'Diagnose & Fehlerauslesen',
     description: 'Professionelle Fehlerdiagnose mit modernster Technik.',
-    details: ['Computerdiagnose', 'Fehlerauslesen', 'Fehlerbehebung', 'Elektronik-Check','Codierung','abschleppen','Reparatur','Achsvermessung']
+    details: ['Computerdiagnose', 'Fehlerauslesen', 'Fehlerbehebung', 'Elektronik-Check','Codierung','Achsvermessung']
   },
   {
     id: 'tuev',

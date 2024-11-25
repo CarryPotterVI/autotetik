@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mail, Clock, MapPin, MessageSquare, Car, Camera } from 'lucide-react';
 
 const galleryImages = [
