@@ -59,7 +59,8 @@ export const Hero = () => {
     { id: 'tuev', name: 'TÜV / AU' },
     { id: 'reparatur', name: 'Reparaturen' },
     /* { id: 'import', name: 'Import & Export' }, */
-    { id: 'reifen', name: 'Reifenservice' }
+    { id: 'reifen', name: 'Reifenservice' },
+    { id: 'Abschleppdienst', name: '24/7 Abschleppdienst' },
   ];
 
   return (
@@ -68,7 +69,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2583&auto=format&fit=crop")',
+          backgroundImage: 'url("/public/images/car.png")',
           backgroundPosition: 'center'
         }}
       >

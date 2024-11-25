@@ -3,20 +3,20 @@ import { Phone, Mail, Clock, MapPin, MessageSquare, Car, Camera } from 'lucide-r
 
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1000&auto=format&fit=crop",
-    alt: "Sportwagen Ansicht"
+    url: "/public/images/car spray.jpg",
+    alt: "Auto lackieren"
   },
   {
-    url: "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?q=80&w=2574&auto=format&fit=crop",
+    url: "/public/images/foto 2.png",
     alt: "Mechaniker bei der Arbeit"
   },
   {
-    url: "https://images.unsplash.com/photo-1583955275036-fd20a9c185bd?q=80&w=2670&auto=format&fit=crop",
+    url: "/public/images/foto 3.png",
     alt: "Auto in der Werkstatt"
   },
   {
-    url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1000&auto=format&fit=crop",
-    alt: "Klassische Auto abholung"
+    url: "/public/images/car abschlepp.jpg",
+    alt: "Klassisches Auto abschleppen"
   }
 ];
 

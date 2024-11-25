@@ -64,7 +64,14 @@ const services = [
     title: 'Reifenservice',
     description: 'Kompletter Reifenservice und fachgerechte Montage.',
     details: ['Reifenwechsel', 'Auswuchten', 'Einlagerung', 'Reparatur']
-  }
+  },
+  {
+    id: 'abschleppdienst',
+    icon: Navigation,
+    title: '24/7 Abschleppdienst',
+    description: 'Schnelle und zuverlässige Unterstützung bei Pannen oder Unfällen – rund um die Uhr.',
+    details: ['Fahrzeugbergung', 'Pannenhilfe', 'Transport zu Werkstätten', 'Abschleppen von Unfallfahrzeugen']
+  },
 ];
 
 export const Services = () => {
