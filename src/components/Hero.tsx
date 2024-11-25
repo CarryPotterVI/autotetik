@@ -60,7 +60,7 @@ export const Hero = () => {
     { id: 'reparatur', name: 'Reparaturen' },
     /* { id: 'import', name: 'Import & Export' }, */
     { id: 'reifen', name: 'Reifenservice' },
-    { id: 'Abschleppdienst', name: '24/7 Abschleppdienst' },
+    { id: 'abschleppdienst', name: '24/7 Abschleppdienst' },
   ];
 
   return (
