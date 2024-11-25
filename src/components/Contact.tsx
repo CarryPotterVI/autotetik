@@ -3,19 +3,19 @@ import { Phone, Mail, Clock, MapPin, MessageSquare, Car, Camera } from 'lucide-r
 
 const galleryImages = [
   {
-    url: "/public/images/car spray.jpg",
+    url: "/public/images/carspray.jpg",
     alt: "Auto lackieren"
   },
   {
-    url: "/public/images/foto 2.png",
+    url: "/public/images/foto2.png",
     alt: "Mechaniker bei der Arbeit"
   },
   {
-    url: "/public/images/foto 3.png",
+    url: "/public/images/foto3.png",
     alt: "Auto in der Werkstatt"
   },
   {
-    url: "/public/images/car abschlepp.jpg",
+    url: "/public/images/carabschlepp.jpg",
     alt: "Klassisches Auto abschleppen"
   }
 ];
